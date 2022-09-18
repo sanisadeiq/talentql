@@ -14,23 +14,20 @@ app.use(Limiter)
 
 app.get("/howold", function (req, res) {
 
-    const age =  ageCalculator(req.query.dob)
+    const dob = req.query.dob
 
-    if(age === null){
+    if(dob === undefined) res.status(400).send('DOB param missing')
 
-        res.status(400);
-        res.send('Invalid timestamp')
-        
-    }else{
+    const age =  ageCalculator(dob)
 
+    if(age === null) res.status(400).send('Invalid timestamp')    
+    else{
         res.send(`You are ${age} years old today`)
     }
-
-   // res.send(`You are ${age} years old today`)
 });
 
 app.listen(port, function () {
-  console.log(`Example app listening on port ${port}!`);
+  console.log(`App listening on port ${port}!`);
 });
 
 function ageCalculator(dob) {
