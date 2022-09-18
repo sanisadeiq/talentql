@@ -21,9 +21,9 @@ app.get("/howold", function (req, res) {
     const age =  ageCalculator(dob)
 
     if(age === null) res.status(400).send('Invalid timestamp')    
-    else{
-        res.send(`You are ${age} years old today`)
-    }
+    
+    res.send(`You are ${age} years old today`)
+    
 });
 
 app.listen(port, function () {
