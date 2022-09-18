@@ -10,6 +10,10 @@ Build and deploy a very simple API that does the following
 
 See full details and instructions in this [Google Doc](https://docs.google.com/document/d/1ma5vKz0j34gwI9WYrZddMM1ENlQddGOVFJ5qdSq2QlQ)
 
+# Starting the app
+
+1. CD into the root of the app and run node index.js to run the app
+
 # How Does it work
 
 1. The application receives a dob timestamp as part of the /howold get request eg '/howold?dob=558975584'
