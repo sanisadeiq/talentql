@@ -1,0 +1,23 @@
+{
+  "name": "talentql_assesment",
+  "version": "1.0.0",
+  "description": "an assessment done for talentql project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanisadeiq/talentql.git"
+  },
+  "author": "Sani Sadiq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanisadeiq/talentql/issues"
+  },
+  "homepage": "https://github.com/sanisadeiq/talentql#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.6.0"
+  }
+}

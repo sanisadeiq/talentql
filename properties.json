@@ -1,8 +1,8 @@
 {
-    "name": "",
+    "name": "Sani Sadiq",
     "track": "backend",
-    "email": "",
-    "githubUsername": "",
+    "email": "sanisadeiq@gmail.com",
+    "githubUsername": "sanisadeiq",
     "deployedAppURL": "",
-    "explainer": ""
+    "explainer": "An API that returns age from a dob timestamp supplied to it as a query parameter"
 }
